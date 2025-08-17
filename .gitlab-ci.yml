@@ -1,0 +1,6 @@
+default:
+  stage: build
+  image: ubuntu:20.04
+  script:
+    - chmod +x send.sh
+    - ./send.sh
